@@ -1,0 +1,76 @@
+/* @font-face {
+  font-family: "Commodore";
+  src: url('Commodore.ttf');
+  src: url('FiraSans-Regular.ttf') format('truetype');
+} */
+
+/* Need to look into how to add custom font again */
+
+body {
+  height: 100vh;
+  /* width: 100vw; */
+  /* background-image: url("pushup.jpg"); */
+  background-image: linear-gradient(115deg, rgba(204, 255, 255, 0.8), rgba(204, 255, 204, 0.7)),url("/Images/pushup.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* font-family: Commodore, sans-serif; */
+  font-family: 'Secular One', sans-serif;
+  /* letter-spacing: 2px; */
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}
+
+#container {
+  max-width: 700px;
+  max-height: 600px;
+  margin: 40px auto;
+  /* background: #cdb4db 10%; */
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 55px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  width: 180px;
+  /* margin-bottom: 5px; */
+  margin: 0 auto 10px auto;
+  border-radius: 30px;
+}
+
+#increment-btn {
+  background: #294999;
+}
+
+#save-btn {
+  background: #008000;
+}
+
+p {
+  font-size: 22px;
+}
+
+#reset-btn {
+  background: #d03c37;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  margin-top: 50px;
+}
